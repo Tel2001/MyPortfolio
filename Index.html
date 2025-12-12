@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christel Sanoy</title>
+    <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="hero.css">
+    <script src="Index.js"></script>
+</head>
+<body>
+    <div class="main-background"></div>
+    <div class="navigation-container">
+        <div class="logo-container">
+            <h3>TEL.<span style="color: #1A8EE3;">DEV</span></h3>
+        </div>
+        <div class="nav-link-container display-navlinks" id="nav-links">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="side-btn-container">
+            <div class="hire-btn-container">
+                <button>Hire Me</button>
+            </div>
+            <div id="hamburger-btn" class="hamburger-btn-container" onclick="HamburgerBtnClick()">
+            </div>
+            <div class="theme-mode-container" onclick="ThemeToggle()">
+                <div class="dark-mode-container">
+                    <div class="ray ray-1" id="ray-1"></div>
+                    <div class="ray ray-2" id="ray-2"></div>
+                    <div class="ray ray-3" id="ray-3"></div>
+                    <div class="ray ray-4" id="ray-4"></div>
+                    <div class="ray ray-5" id="ray-5"></div>
+                    <div class="ray ray-6" id="ray-6"></div>
+                    <div class="ray ray-7" id="ray-7"></div>
+                    <div class="ray ray-8" id="ray-8"></div>
+                    <div class="sun" id="sun"></div>
+                    <div class="moon moon-1" id="moon"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-container">
+        <div class="brief-about-me-container">
+            <p>Hi! I'm Tel</p>
+            <h1>UI Designer | Front-end <br> Web Developer</h1>
+            <p style="display: none;">Bachelor of Science in Information Technology Student</p>
+        </div>
+        <div class="background-container"></div>
+        <div class="img-container react"></div>
+        <div class="img-container javascript"></div>
+        <div class="img-container css"></div>
+        <div class="img-container html"></div>
+        <div class="img-container nodejs"></div>
+        <div class="img-container figma"></div>
+        <div class="guide-2"></div>
+        <div class="guide"></div>
+        <div class="social-media-accs-container">
+            <a id="linkedin-link">linkedin.com/in/christel-sanoy-3b0041184/</a>
+            <div class="soc-media-container linkedin" id='linkedin' onmouseenter="LinkedinHover()" onmouseleave="LinkedinMouseOut()"></div>
+            <a id="github-link">github.com/Tel2001</a>
+            <div class="soc-media-container github" id='github' onmouseenter="GithubHover()" onmouseleave="GithubMouseOut()" ></div>
+             <a id="behance-link" >behance.net/christelsanoy</a>
+            <div class="soc-media-container behance" id="behance" onmouseenter="BehanceHover()" onmouseleave="BehanceMouseOut()"></div>
+             <a id="facebook-link" >facebook.com/ChristelSanoy/</a>
+            <div class="soc-media-container facebook" id="facebook" onmouseenter="FacebookHover()" onmouseleave="FacebookMouseOut()"></div>
+        </div>
+    </div>
+</body>
+</html>
