@@ -6,9 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christel Sanoy</title>
     <link rel="stylesheet" href="Projects.css">
+    <link rel="stylesheet" href="opening.css">
 </head>
 
 <body>
+    <div class="cover" id="cover"></div>
+    <div class="opening-container show-anim" id="opening">
+        <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+            <defs>
+                <mask id="text-mask">
+                    <rect width="100" height="100" fill="white" />
+                    <text x="50" y="55"
+                        text-anchor="middle"
+                        dominant-baseline="middle"
+                        font-size="20"
+                        font-weight="800"
+                        fill="black"
+                    >
+                    TEL
+                    </text>
+                </mask>
+            </defs>
+
+            <rect width="100" height="100" fill="rgba(0,0,0,0,.85)" mask="url(#text-mask)">
+        </svg>
+    </div>
     <div class="projects-container">
         <p>Featured Projects</p>
         <div class="project-container project-container-1">
@@ -75,5 +97,17 @@
         </div>
     </div>
 </body>
+
+<script>
+    setTimeout(() => {
+        document.getElementById('cover').style.display = 'none';
+        console.log('test');
+    }, 800)
+
+    setTimeout(() => {
+        document.getElementById('opening').style.display = 'none';
+        console.log('test');
+    }, 1400)
+</script>
 
 </html>
