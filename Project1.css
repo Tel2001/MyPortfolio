@@ -1,0 +1,54 @@
+:root {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.project-container {
+    width: 100%;
+    max-width: 1400px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+}
+
+.project-description {
+    margin-top: -20px;
+}
+
+.images-container {
+    width: inherit;
+    height: 600px;
+    border: 1px solid pink;
+    scrollbar-width: 200px;
+    scrollbar-color: green;
+    overflow-x: scroll;
+    scrollbar-face-color: green;
+    scrollbar-track-color: green;
+    scrollbar-base-color: green;
+}
+
+.images-container::-webkit-scrollbar-track {
+    color: aqua;
+}
+
+.images-container::-webkit-scrollbar-track {
+    background-color: aqua;
+}
+
+.problem-container {
+    font-size: 16px;
+}
+
+.tech-stacks-container {
+    display: flex;
+    margin-top: 0;
+}
+
+.tech-stack-container {
+    margin-right: 10px;
+}
